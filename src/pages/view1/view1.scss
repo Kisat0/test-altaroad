@@ -1,0 +1,97 @@
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    padding: 10px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    text-align: left;
+    /* Align column headers to the left */
+}
+
+thead th span {
+    margin-left: 5px;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    /* Align row content vertically in the middle */
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody td button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+tbody td button:hover {
+    background-color: #044993;
+}
+
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.modal h2 {
+    margin-top: 0;
+}
+
+.modal input[type="text"],
+.modal select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.modal button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal button:hover{
+    background-color: #044993;
+}
+
+.modal button:last-child {
+    margin-right: 0;
+}
+
+.table-row-link {
+    display: table-row;
+    cursor: pointer;
+}
+
+tr{
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+}
+
+tr:hover{
+    background-color: rgba(108, 108, 108, 0.122);
+}
